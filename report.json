@@ -1,0 +1,4 @@
+{
+  "error": "Request failed: HTTPSConnectionPool(host='target.site', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x103001a90>: Failed to resolve 'target.site' ([Errno 8] nodename nor servname provided, or not known)\"))",
+  "url": "https://target.site"
+}

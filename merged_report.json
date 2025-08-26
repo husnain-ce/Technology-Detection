@@ -1,0 +1,530 @@
+{
+  "url": "https://www.joomla.org/",
+  "debug": null,
+  "technologies_detected": [
+    {
+      "name": "Cloudflare",
+      "score": 100,
+      "versions": [],
+      "categories": [
+        "CDN",
+        "Security/WAF/Auth",
+        "Edge/Serverless"
+      ],
+      "saas": true,
+      "oss": null,
+      "website": "https://www.cloudflare.com",
+      "description": null,
+      "evidence": [
+        {
+          "field": "headers",
+          "detail": "Server",
+          "match": "cloudflare",
+          "confidence": 50,
+          "version": null
+        },
+        {
+          "field": "headers",
+          "detail": "CF-Ray",
+          "match": "975036777c89d56b-KHI",
+          "confidence": 50,
+          "version": null
+        }
+      ],
+      "source": "dataset"
+    },
+    {
+      "name": "Cloudflare Pages",
+      "score": 50,
+      "versions": [],
+      "categories": [
+        "Hosting/PAAS",
+        "Edge/Serverless"
+      ],
+      "saas": null,
+      "oss": null,
+      "website": "https://pages.cloudflare.com",
+      "description": null,
+      "evidence": [
+        {
+          "field": "headers",
+          "detail": "Server",
+          "match": "cloudflare",
+          "confidence": 50,
+          "version": null
+        }
+      ],
+      "source": "dataset"
+    },
+    {
+      "name": "Font Awesome",
+      "score": 50,
+      "versions": [],
+      "categories": [
+        "Fonts/Icons"
+      ],
+      "saas": null,
+      "oss": null,
+      "website": "https://fontawesome.com",
+      "description": null,
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "html",
+          "match": "fontawesome.min.css",
+          "confidence": 50,
+          "version": null
+        }
+      ],
+      "source": "dataset"
+    },
+    {
+      "name": "Google Fonts",
+      "score": 50,
+      "versions": [],
+      "categories": [
+        "Fonts/Icons"
+      ],
+      "saas": null,
+      "oss": null,
+      "website": "https://fonts.google.com",
+      "description": null,
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "html",
+          "match": "fonts.googleapis.com/css",
+          "confidence": 50,
+          "version": null
+        }
+      ],
+      "source": "dataset"
+    },
+    {
+      "name": "Google Tag Manager",
+      "score": 50,
+      "versions": [],
+      "categories": [
+        "Tag Managers"
+      ],
+      "saas": null,
+      "oss": null,
+      "website": "https://marketingplatform.google.com/about/tag-manager/",
+      "description": null,
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "html",
+          "match": "GTM-WWC8WL",
+          "confidence": 50,
+          "version": null
+        }
+      ],
+      "source": "dataset"
+    },
+    {
+      "name": "Joomla",
+      "score": 50,
+      "versions": [],
+      "categories": [
+        "CMS"
+      ],
+      "saas": null,
+      "oss": null,
+      "website": "https://www.joomla.org",
+      "description": null,
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "html",
+          "match": "<meta name=\"generator\" content=\"Joomla",
+          "confidence": 50,
+          "version": null
+        }
+      ],
+      "source": "dataset"
+    },
+    {
+      "name": "jQuery",
+      "score": 50,
+      "versions": [],
+      "categories": [
+        "JavaScript Libraries"
+      ],
+      "saas": null,
+      "oss": null,
+      "website": "https://jquery.com",
+      "description": null,
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "/media/vendor/jquery/js/jquery.min.js",
+          "match": "/jquery.min.js",
+          "confidence": 50,
+          "version": null
+        }
+      ],
+      "source": "dataset"
+    },
+    {
+      "name": "Bootstrap",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "Country",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['UNITED STATES'], 'module': ['US']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['UNITED STATES'], 'module': ['US']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "Frame",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "HTML5",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "HTTPServer",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['cloudflare']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['cloudflare']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "IP",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['104.26.14.15']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['104.26.14.15']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "MetaGenerator",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['Joomla! - Open Source Content Management']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['Joomla! - Open Source Content Management']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "OpenSearch",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['https://www.joomla.org/search.opensearch']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['https://www.joomla.org/search.opensearch']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "Script",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['application/json', 'module', 'text/javascript']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['application/json', 'module', 'text/javascript']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "Strict-Transport-Security",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['max-age=31536000; includeSubDomains']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['max-age=31536000; includeSubDomains']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "Title",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': [\"Joomla Content Management System (CMS) - try it! It's free!\"]}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': [\"Joomla Content Management System (CMS) - try it! It's free!\"]}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "UncommonHeaders",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['link,x-litespeed-cache,x-content-type-options,referrer-policy,cross-origin-opener-policy,permissions-policy,content-security-policy,x-turbo-charged-by,cf-cache-status,report-to,nel,cf-ray,server-timing']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['link,x-litespeed-cache,x-content-type-options,referrer-policy,cross-origin-opener-policy,permissions-policy,content-security-policy,x-turbo-charged-by,cf-cache-status,report-to,nel,cf-ray,server-timing']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "X-Frame-Options",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['SAMEORIGIN']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['SAMEORIGIN']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "score": 60,
+      "versions": [],
+      "categories": [],
+      "saas": null,
+      "oss": null,
+      "website": null,
+      "description": "{'string': ['1; mode=block']}",
+      "evidence": [
+        {
+          "field": "whatweb",
+          "detail": "plugin",
+          "match": "{'string': ['1; mode=block']}",
+          "confidence": 60,
+          "version": null
+        }
+      ],
+      "source": "whatweb"
+    }
+  ],
+  "counts": {
+    "matched": 21,
+    "tested": 241
+  },
+  "whatweb_raw": {
+    "target": "https://www.joomla.org",
+    "http_status": 200,
+    "request_config": {
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+      }
+    },
+    "plugins": {
+      "Bootstrap": {},
+      "Country": {
+        "string": [
+          "UNITED STATES"
+        ],
+        "module": [
+          "US"
+        ]
+      },
+      "Frame": {},
+      "HTML5": {},
+      "HTTPServer": {
+        "string": [
+          "cloudflare"
+        ]
+      },
+      "IP": {
+        "string": [
+          "104.26.14.15"
+        ]
+      },
+      "JQuery": {},
+      "MetaGenerator": {
+        "string": [
+          "Joomla! - Open Source Content Management"
+        ]
+      },
+      "OpenSearch": {
+        "string": [
+          "https://www.joomla.org/search.opensearch"
+        ]
+      },
+      "Script": {
+        "string": [
+          "application/json",
+          "module",
+          "text/javascript"
+        ]
+      },
+      "Strict-Transport-Security": {
+        "string": [
+          "max-age=31536000; includeSubDomains"
+        ]
+      },
+      "Title": {
+        "string": [
+          "Joomla Content Management System (CMS) - try it! It's free!"
+        ]
+      },
+      "UncommonHeaders": {
+        "string": [
+          "link,x-litespeed-cache,x-content-type-options,referrer-policy,cross-origin-opener-policy,permissions-policy,content-security-policy,x-turbo-charged-by,cf-cache-status,report-to,nel,cf-ray,server-timing"
+        ]
+      },
+      "X-Frame-Options": {
+        "string": [
+          "SAMEORIGIN"
+        ]
+      },
+      "X-XSS-Protection": {
+        "string": [
+          "1; mode=block"
+        ]
+      }
+    }
+  },
+  "wappalyzer_error": "Wappalyzer error: WebPage.new_from_url() got an unexpected keyword argument 'headers'"
+}
