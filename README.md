@@ -1,7 +1,7 @@
 # Tech Detection XXL
 
 > Collect **the largest open dataset of web technologies** and use multiple detectors (our JSON matcher, WhatWeb, and python‑Wappalyzer) to fingerprint sites reliably. This project’s goal is simple: _cover everything_ — front‑end, back‑end, headless CMS, CDNs, A/B testing, CI/CD, hosting, WAFs, analytics, payments, and more — and make the detections transparent with evidence.
-
+> https://github.com/tomnomnom/wappalyzer/blob/master/src/technologies/a.json (Data Source)
 ## Vision
 
 I want to **collect data of all web technologies** and, by using these tools together, **build a great project for technology detection**.  
